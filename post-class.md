@@ -1,14 +1,30 @@
-## Brief
+## POST-CLASS WORK
 
-Enter instruction for assignment here.
+### Objective: Reinforce learning; apply to M1 projects
 
-## Submission 
+**Week 1 Post-Class:**
 
-- Submit the URL of the GitHub Repository that contains your work to NTU black board.
-- Should you reference the work of your classmate(s) or online resources, give them credit by adding either the name of your classmate or URL. 
+1. **Solo Project Setup (45 min)** — Individual GitHub repo
+   - Initialize their bootcamp project with Git
+   - Create 5 commits with meaningful messages
+   - Push to personal GitHub repo
+   - Submit: link to repo in bootcamp platform
 
-## References
+2. **Reflection Journal (15 min)** — Async, 200 words max
+   - "What's one Git workflow you'll use this week?"
+   - "Where did you feel stuck today? How did you solve it?"
 
-- https://developer.mozilla.org/en-US/
-- https://www.w3schools.com/html/
+**Week 2-3 Post-Class:**
+
+3. **Team Project Git Workflow (Ongoing)**
+   - Apply branching + PR workflow to group project
+   - Each team member creates 1 feature branch
+   - Submit PR for peer review before merging
+   - Document: 1 merge conflict + how you resolved it
+
+4. **Bonus: Colab Setup** (Optional, 20 min)
+   - Create Jupyter notebook in Colab
+   - Connect to GitHub repo
+   - Document in README: "How to run this in Colab"
+
 
