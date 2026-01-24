@@ -7,3 +7,5 @@ U - untracked
 Git is a time machine?!
 
 experimenting here....hello editing here
+
+doing third change 
