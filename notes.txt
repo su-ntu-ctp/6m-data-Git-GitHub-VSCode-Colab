@@ -1,0 +1,14 @@
+doing some exploratory analysis
+
+this is a working directory
+
+U - untracked
+
+Git is a time machine?!
+
+experimenting here....hello editing here
+
+doing third change 
+
+
+doing forth change
