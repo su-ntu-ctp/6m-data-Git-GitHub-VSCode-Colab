@@ -6,11 +6,7 @@
 
 **Goal:** Empower non-technical learners to manage versions, sync work across devices, and collaborate using Git, GitHub, VS Code, and Google Colab.
 
-## **📖 Recommended Starting Point**
-
-Before diving into the workshop, we recommend going through this interactive Git introduction:
-
-**[Git Introduction Slides](https://pandelisz.github.io/git-intro-slides/#/1)** - A visual and beginner-friendly tutorial that covers the core concepts of Git.
+Watch this intro video: [Demystifying Git and GitHub](https://youtu.be/N6C2htJxvQQ)
 
 ## **🎯 Learning Objectives**
 
@@ -28,7 +24,8 @@ By the end of this session, you will be able to:
 * **Accounts:** A free GitHub account (github.com) and a Google account.  
 * **Software:**  
   * [Visual Studio Code (VS Code)](https://code.visualstudio.com/) installed.  
-  * [Git](https://www.google.com/search?q=https://git-scm.com/downloads) installed on your machine.  
+  * [Git](https://www.google.com/search?q=https://git-scm.com/downloads) installed on your machine.
+  * If you have not done so, please revisit [First time installation](https://github.com/su-ntu-ctp/6m-data-1.0-Welcome-Onboarding/blob/main/installation.md) 
 * **Mindset:** Don't worry if you break something. In Git, it is actually very hard to lose work permanently\!
 
 ## **🕒 Workshop Agenda**
@@ -87,11 +84,13 @@ print("Hello, GitHub! This is my first commit.")
    * In Colab, go to **File** \-\> **Save a copy in GitHub**.  
    * A popup will ask for authorization. Click **Authorize googlecolab**.  
    * **Repository:** Select your `my-first-data-journal`.  
-   * **Branch:** Keep it as `main`.  
+   * **Branch:** Keep it as `main`.  **Notice** If you didn't check "Initialize with a README" option in previous step, you will not see `main` in this step. 
    * **Commit message:** Type "Created notebook via Colab".  
    * Click **OK**.  
 4. **Verify:**  
    * Go back to your GitHub tab. Refresh the page. You should see your `.ipynb` file there\!
+
+---
 
 ## **📘 Module 2: The Mental Model (10 mins)**
 
@@ -110,7 +109,8 @@ There are three places your work lives:
 *Goal: Sync VS Code with GitHub and master the "Golden Loop".*
 
 1. **Clone the Repo (Download):**  
-   * Open **VS Code**.  
+   * Open **VS Code**.
+   * (Windows Only) Connect to WSL by clicking the bottom left "Open a Remote Window" button.
    * Open the Command Palette (`Ctrl+Shift+P` on Windows, `Cmd+Shift+P` on Mac).  
    * Type `Git: Clone` and select it.  
    * Paste the URL of your GitHub repository (found under the green "Code" button on GitHub).  
