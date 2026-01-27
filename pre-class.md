@@ -20,7 +20,7 @@
    - Use browser to access websites
 
 5. **Watch this intro video:**
-   - https://youtu.be/N6C2htJxvQQ
+   - [[Git & GitHub Zero to Hero]](https://youtu.be/1I79WAZ4uSU)
 
 4. **Optional But Helpful:**
    - Basic Python familiarity (covered if needed in Section 3)
