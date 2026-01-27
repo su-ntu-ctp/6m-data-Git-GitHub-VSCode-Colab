@@ -96,39 +96,54 @@ print("Hello, GitHub! This is my first commit.")
 
 Now we move from the cloud to your actual computer. This is where it gets interesting.
 
+**New Key Concepts: Fork and Clone**
+
+When working on a shared project, you will often encounter two related, but different, ways to get a copy of the code:
+
+* **Fork:** This is a process on **GitHub** (the cloud) where you create a **personal copy** of someone else's repository on *your own* GitHub account. You use this when you want to contribute to a project you don't have direct write access to, or when you want to start your own project based on theirs. The original project remains untouched.
+
+* **Clone:** This is the process of **downloading** a repository (your original, your fork, or any public repo) from GitHub to your **local computer** (where you work in VS Code).
+
+Demo: Forking and Cloning for Collaboration
+
+*Goal: Make a personal copy of a team's project and get it onto your local computer.*
+
+## **💻 Exercise B-1: The Workbench (45 mins)**
+
+1. **Fork the Repository (The Cloud Copy):**  
+   * Go to the main project's GitHub page (e.g., [https://github.com/su-ntu-ctp/6m-data-1.0-Welcome-Onboarding](https://github.com/su-ntu-ctp/6m-data-1.0-Welcome-Onboarding)).  
+   * Click the **Fork** button in the top right corner. This creates a full copy of the project under *your* GitHub account.
+
+2. **Clone Your Fork (The Local Download):**  
+   * Navigate to *your forked repository's* page on GitHub.  
+   * Click the green **Code** button and copy the repository's URL.  
+   * Open **VS Code**, (**For Windows:** Connect to WSL by clicking the bottom left "Open a Remote Window" button.)
+   * Use the Command Palette (Ctrl+Shift+P or Cmd+Shift+P), and select **Git: Clone**.  
+   * Paste the URL of your GitHub repository
+   * Select a folder on your computer to save it (e.g., Documents).
+   * Click **Open** when prompted.
+
 There are three places your work lives:
 
-1. **Working Directory:** The files you are editing right now in VS Code.  
-2. **Staging Area:** A "waiting room" where you pick which files to save.  
-3. **Repository (Local):** The permanent record on your hard drive.
+   1. **Working Directory:** The files you are editing right now in VS Code.  
+   2. **Staging Area:** A "waiting room" where you pick which files to save.  
+   3. **Repository (Local):** The permanent record on your hard drive.
 
 **The Workflow:** `Changes` \-\> **Add** (to Staging) \-\> **Commit** (to Repo) \-\> **Push** (to GitHub).
 
-## **💻 Exercise B: The Workbench (45 mins)**
-
-*Goal: Sync VS Code with GitHub and master the "Golden Loop".*
-
-1. **Clone the Repo (Download):**  
-   * Open **VS Code**.
-   * (Windows Only) Connect to WSL by clicking the bottom left "Open a Remote Window" button.
-   * Open the Command Palette (`Ctrl+Shift+P` on Windows, `Cmd+Shift+P` on Mac).  
-   * Type `Git: Clone` and select it.  
-   * Paste the URL of your GitHub repository (found under the green "Code" button on GitHub).  
-   * Select a folder on your computer to save it (e.g., Documents).  
-   * Click **Open** when prompted.  
-2. **Make a Change:**  
+3. **Make a Change:**  
    * In the file explorer (left sidebar), right-click \-\> **New File**.  
    * Name it `notes.txt`.  
    * Type: "Git is a time machine." Save the file (`Ctrl+S`).  
-3. **The Source Control Tab:**  
+4. **The Source Control Tab:**  
    * Click the icon on the far left that looks like a web of lines (Source Control).  
    * You will see `notes.txt` under "Changes".  
    * **Step 1 (Add):** Click the **\+** sign next to `notes.txt`. This moves it to "Staged Changes".  
    * **Step 2 (Commit):** In the message box, type "Added my first note". Click **Commit** (the checkmark or the 'Commit' button).  
-4. **Sync (Push):**  
+5. **Sync (Push):**  
    * You will see a blue button saying **Sync Changes** (or a number next to the cloud icon at the bottom). Click it.  
    * *Note:* If it asks for a username/password, follow the browser prompts to authorize GitHub.  
-5. **Verify:**  
+6. **Verify:**  
    * Go to your GitHub webpage. Refresh. You will see `notes.txt`.
 
 ## **📘 Module 3: Collaboration Theory (10 mins)**
