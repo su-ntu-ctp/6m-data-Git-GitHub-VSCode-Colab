@@ -6,7 +6,7 @@
    - Git (download from git-scm.com)
    - VS Code (download from code.visualstudio.com)
    - Python 3.8+ (can use system Python or Anaconda)
-   - Send installation links 1 week prior
+   - Install [[Open in Colab]](https://chromewebstore.google.com/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo?hl=en-US&utm_source=ext_sidebar) extension in Chrome browser.
 
 2. **Accounts Created BEFORE Class:**
    - GitHub account (free tier at github.com)
