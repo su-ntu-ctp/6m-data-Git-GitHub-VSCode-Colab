@@ -57,6 +57,18 @@ Imagine you are writing a very important document. You save it as `Final.docx`. 
 * **Commit:** A save point (snapshot).  
 * **Push:** Uploading your save points to the cloud (GitHub).
 
+* ### **Google Colab**
+
+* **Google Colab** (short for Colaboratory) is a free cloud-based platform for writing and running Python code in your web browser. Think of it as a notebook where you can write code, see results immediately, and save everything to the cloud without installing anything on your computer.
+
+* **Why use Google Colab for data science?**
+
+* * **No installation needed:** Just open your browser and start coding.
+  * * **Free computing power:** Access to GPUs and TPUs for machine learning tasks.
+    * * **Easy sharing:** Share notebooks with colleagues just like Google Docs.
+      * * **GitHub integration:** Save your work directly to GitHub repositories.
+        * * **Pre-installed libraries:** Common data science libraries (pandas, numpy, matplotlib) are already available.
+
 ## **💻 Exercise A: The Cloud Connection (30 mins)**
 
 *Goal: Create a repo and save a file to it without installing anything locally yet.*
